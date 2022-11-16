@@ -1,0 +1,208 @@
+@font-face {
+    font-family: myFont;
+    src: url(fonts/static/RobotoSlab-Light.ttf);
+}
+
+@font-face {
+    font-family: myFontBold;
+    src: url(fonts/static/RobotoSlab-Bold.ttf);
+}
+body {
+    font-family: myFont;
+    font-size: 17px;
+    margin:0;
+    text-align: center;
+    background-color: darkgrey;
+    max-height: 950px;
+    max-width:2100px;
+}
+
+#header {
+    background: rgb(44, 46, 48);
+    height: 1em;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin:0;
+    padding-bottom: 1em;
+}
+
+#signup{
+    background-color: #640e0ea6; /* Green */
+    border:rgb(80, 3, 3);
+    border-radius: 0.5em;
+    color: rgb(80, 3, 3);
+    padding: 15px 32px;
+    margin-right: 4%;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    float:right;
+}
+
+#signup a{
+    color: rgb(255, 255, 255); 
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#navigation{
+    font-family: myFontBold;
+    font-size: 15px;
+    background-color: rgb(34, 30, 30, 0.199);
+    background: #ccc  url(images/back.jpg) repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#navigation div{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav a{
+    color: black; 
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: grey; 
+}
+
+nav a:active{
+    color:rgb(100, 0, 0);
+}
+
+#content{    
+    padding: 20px 5%;
+}
+
+
+
+#sideinfo{
+    background-color: rgba(253, 232, 232, 0.199);
+    justify-content: space-around;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    font-size: 12px;
+    height:40px;
+    padding:1em;
+    background-color:rgb(44, 46, 48);
+    color:white;
+    text-align: left;
+}
+
+
+#questions{
+    text-align: left;
+}
+
+#thanks{
+    text-align: center;
+    font-size:x-large;
+}
+
+
+form{
+    font-size: 18px;
+}
+
+li{
+margin:50px;
+
+
+}
+
+input:not(:placeholder-shown):invalid {
+    background-color: rgb(253, 175, 166);
+}
+ 
+input{
+    border-radius:1em;
+    font-size: medium;
+}
+
+#date{
+    background-color: white;
+}
+
+#submit{
+    border-color: black;
+    background-color: rgb(177, 67, 67);
+    font-size: 25px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+fieldset{
+    margin:40px;
+}
+
+@media(min-width:481px) and (max-width:768px){
+    body{
+        font-size: 18px;
+
+    }
+
+    #navigation{
+        font-family: myFontBold;
+        background-color: rgba(34, 30, 30, 0.199);
+        background: #ccc  url(images/back.jpg) repeat;
+        justify-content: space-around;
+        display:flex;
+        align-items: baseline;
+    }
+
+    #sideinfo{
+        background-color: rgba(148, 138, 138, 0.199);
+        justify-content: space-around;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrapper{
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+}
+
+
+
+@media(min-width:769px){
+    body{
+        font-size: 21px;
+
+    }
+
+    .pcall{
+        display:grid;
+        grid-template-columns: 20% 80%;
+    }
+
+    #navigation{
+        font-family: myFontBold;
+        background-color: rgba(34, 30, 30, 0.199);
+        background: #ccc  url(images/back.jpg) repeat;
+        justify-content: space-around;
+        display:block;
+        align-items: baseline;
+    }
+
+    #navigation div{
+        margin-top:50px;
+    }
+
+    .wrapper{
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+
+}
