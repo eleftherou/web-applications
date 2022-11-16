@@ -1,0 +1,138 @@
+body {
+    background: radial-gradient(rgb(255, 196, 196), rgb(121, 100, 100));
+    font-family: Lucida, sans-serif;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+}
+
+.main-text{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/*title: Myrto Eleftherou*/
+#title{
+    background-color: rgb(172, 108, 117);
+    color: rgb(255, 215, 215);
+    text-align: center;
+    font-size:35px;
+}
+
+h1 {
+    color: rgb(59, 8, 8);
+    font-size:22px;
+}
+
+/*navigation bar*/
+nav ul{    
+    margin-top: 10px; 
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+    background-color: rgb(254, 247, 255);
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 150px;
+    font-size: 17px;
+}
+
+nav a{
+    color: yellow; 
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(214, 0, 0);
+}
+
+nav a:active{
+    color: rgb(219, 156, 221);
+}
+
+
+article>h1{
+    font-size:30px;
+    text-decoration:underline;
+}
+
+p{
+    color:white;
+    font-size: 17px;
+    
+}
+
+a:link {
+    color:  rgba(49, 17, 44, 0.76);
+}
+
+a:visited {
+    color:  rgba(49, 17, 44, 0.76);
+}
+
+a:hover{
+    color:rgb(128, 84, 84);
+}
+
+a:active{ /*stigmiaia allagi otan kanw click ena koumpi*/
+    color:rgb(0, 0, 0);
+}
+
+footer{
+    text-align: center;
+    color: rgb(59, 8, 8);
+    
+   
+   
+}
+
+.cont{
+    color:white;
+    font-size:20px;
+    background-image: url(images/white-pink.svg);
+    text-align: center;
+}
+
+.github{
+    color: rgb(59, 8, 8);
+}
+
+ul{
+    text-align: left;
+}
+ul li{
+    font-weight: bold;
+}
+
+
+.section {
+    border-width: 3px;
+    border-color: rgb(71, 4, 4);
+    border-style: double;
+    padding: 15px;
+    margin: 20px;
+
+}
+/*logo evaggelikis*/
+.evag{
+    float:right;
+}
+
+
+button{
+    background-color: pink; /* Green */
+    border: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color:rgb(255, 221, 221);
+    border-style:outset;
+    color: rgba(0, 0, 0, 0.842);
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
