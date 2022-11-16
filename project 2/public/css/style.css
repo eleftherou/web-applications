@@ -1,0 +1,71 @@
+@font-face {
+    font-family: myFont;
+    src: url(fonts/static/RobotoSlab-Light.ttf);
+}
+
+@font-face {
+    font-family: myFontBold;
+    src: url(fonts/static/RobotoSlab-Bold.ttf);
+}
+
+body {
+    font-family: myFont;
+    font-size: 17px;
+    margin:0;
+    background-color: rgb(191, 206, 221);
+    max-height: 950px;
+}
+
+#header {
+    background: rgb(107, 163, 219);
+    text-align: center;
+    color: white;
+    padding: 1em;
+}
+
+h2{
+    margin-bottom: -20px;
+    margin-left: 1em;
+
+}
+
+input{
+    width:60%;
+    height: 50px;
+    border-color: rgb(24, 24, 156);
+    font-size: 20px;
+    margin:1em;
+}
+
+p{
+    margin: 1em;
+    line-height: 3;
+}
+
+ul li{
+    padding: 0.5em;
+}
+
+#results{
+    font-size:x-large;
+    font-family: myFontBold;
+    margin-top: -2em;
+    text-decoration: underline;
+}
+
+
+#favourites{
+    text-align: right;
+}
+
+button{
+    margin-right: 2em;
+    color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #338cff;
+	padding: 20px;
+	border-radius: 5px;
+	border:rgb(24, 24, 156);
+    border-style: solid;
+}
