@@ -1,0 +1,106 @@
+@font-face {
+    font-family: myFont;
+    src: url(fonts/static/RobotoSlab-Light.ttf);
+}
+
+@font-face {
+    font-family: myFontBold;
+    src: url(fonts/static/RobotoSlab-Bold.ttf);
+}
+
+body {
+    max-width:2300px;
+    font-family: myFont;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    background-color: darkgrey;
+}
+
+
+#header {
+    background: rgb(44, 46, 48);
+    height: 100px;
+    text-align: center;
+    color: white;
+    margin:0;
+}
+/*FLEXBOX*/
+#navigation{
+    font-family: myFontBold;
+    background-color: rgba(34, 30, 30, 0.199);
+    background: #ccc  url(images/back.jpg) repeat;
+    justify-content: space-around;
+    display:flex;
+    align-items: baseline;
+}
+
+#navigation div{
+    width:200px;
+    height:50px;
+    text-align: center;
+    margin-top:20px;
+}
+
+nav a{
+    color: black; 
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(112, 37, 37);
+}
+
+nav a:active{
+    color: rgb(63, 58, 65);
+}
+
+/*CSS GRID*/
+.wrapper{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+#content{    
+    padding: 20px 100px;
+}
+
+/*FLEXBOX*/
+#sideinfo{
+    background-color: rgba(148, 138, 138, 0.199);
+    justify-content: space-around;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#sideinfo p{
+    margin:30px;
+}
+
+#sideinfo img{
+    padding-top:3px;
+    padding-bottom:3px;
+}
+
+.back{
+    background-color: rgb(209, 209, 209);
+    flex-shrink: 1;
+}
+
+.fontdes{
+    font-size: small;
+}
+
+
+
+footer{
+    height:50px;
+    padding:2em;
+    background-color:rgb(44, 46, 48);
+    color:white;
+    text-align: left;
+}
+
